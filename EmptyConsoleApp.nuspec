@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+	<metadata> 
+		<id>EmptyConsoleApp</id> 
+		<version>1.0.1</version> 
+		<authors>David Whitney</authors> 
+		<owners>David Whitney</owners>
+		<description>EmptyConsoleApp</description> 
+		<projectUrl>https://github.com/davidwhitney/EmptyConsoleApp</projectUrl>
+		<licenseUrl>http://www.opensource.org/licenses/MIT</licenseUrl>
+		<tags>EmptyConsoleApp</tags>
+		<language>en-US</language> 
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System.Configuration.Install" targetFramework="net40" />
+			<frameworkAssembly assemblyName="System.ServiceProcess" targetFramework="net40"  />
+		</frameworkAssemblies>
+	</metadata> 	
+	<files>
+	  <file src="EmptyConsoleApp\bin\Release\EmptyConsoleApp.exe" target="lib\Net45\" />
+	  <file src="EmptyConsoleApp\bin\Release\EmptyConsoleApp.exe.config" target="lib\Net45\" />
+	  <file src="EmptyConsoleApp\bin\Release\EmptyConsoleApp.pdb" target="lib\Net45\" />
+	  <file src="EmptyConsoleApp\bin\Release\SimpleServices.dll" target="lib\Net45\" />
+	  <file src="EmptyConsoleApp\bin\Release\SimpleServices.pdb" target="lib\Net45\" />
+	</files>  
+</package>
